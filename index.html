@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sergio Méndez · Creative Portfolio</title>
+<meta name="description" content="Artista 2D y 3D, ingeniero multimedia. Diseño de personajes, fotografía, modelado 3D, diseño de marca y marketing.">
+<style>
+:root{--bg:#f2e6e1;--card:#ffffff;--sand:#dccbbb;--ink:#1c1b1a;--brown:#8b4a2b;--teal:#1f5c57;--muted:#5d554f}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1715;--card:#26201d;--sand:#3a2f29;--ink:#f3e9e4;--brown:#e0996f;--teal:#6fc0b6;--muted:#b6aaa2}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+a{color:inherit}
+header{text-align:center;padding:72px 20px 40px}
+.frame{display:inline-block;border:2px solid var(--ink);padding:28px 48px;background:transparent}
+h1{margin:0;font-size:clamp(2rem,6vw,3.4rem);letter-spacing:.08em;font-weight:500}
+.sub{color:var(--brown);font-weight:700;letter-spacing:.2em;margin:.2em 0 .8em}
+.by{display:inline-block;background:var(--sand);color:var(--teal);font-weight:700;padding:6px 18px;font-size:.85rem;letter-spacing:.1em}
+.role{margin-top:18px;color:var(--muted)}
+nav{position:sticky;top:0;background:var(--bg);display:flex;flex-wrap:wrap;gap:8px;justify-content:center;padding:12px;border-bottom:1px solid var(--sand);z-index:5}
+nav a{text-decoration:none;font-size:.8rem;font-weight:700;letter-spacing:.06em;background:var(--teal);color:#fff;padding:6px 14px;border-radius:3px}
+nav a:nth-child(even){background:var(--brown)}
+main{max-width:1000px;margin:0 auto;padding:0 20px 60px}
+section{padding-top:56px}
+h2{display:inline-block;border:2px solid var(--ink);padding:4px 22px;font-size:1.1rem;margin:0 0 22px;background:var(--bg)}
+.about{display:grid;grid-template-columns:160px 1fr;gap:24px;align-items:center}
+.about img{width:160px;border-radius:6px;display:block}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.box{background:var(--card);padding:20px;border-radius:6px}
+.box h3{margin:0 0 8px;color:var(--brown);background:var(--sand);display:inline-block;padding:2px 14px}
+.edu{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.edu .box{border:3px solid var(--brown);text-align:center}
+.edu b{color:var(--brown)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.gallery figure{margin:0;background:var(--card);padding:8px;border-radius:6px}
+.gallery img,.gallery video{width:100%;height:220px;object-fit:cover;display:block;border-radius:3px;cursor:zoom-in;background:#000}
+.gallery video{cursor:default}
+.logos img{object-fit:contain;background:#fff}
+.skills figcaption{text-align:center;font-weight:700;font-size:.75rem;letter-spacing:.1em;padding-top:6px}
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;padding:20px;z-index:20;cursor:zoom-out}
+#lb img{max-width:100%;max-height:100%;border-radius:4px}
+footer{text-align:center;padding:50px 20px 70px;background:var(--card)}
+footer h2{margin-bottom:10px}
+.cta{font-size:1.4rem;font-style:italic;font-weight:800;margin:0}
+.links{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:18px}
+.links a{background:var(--brown);color:#fff;padding:8px 18px;border-radius:3px;text-decoration:none;font-weight:700;font-size:.9rem}
+@media(max-width:560px){.about{grid-template-columns:1fr;text-align:center}.about img{margin:auto}.frame{padding:20px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="frame">
+    <h1>CREATIVE</h1>
+    <div class="sub">PORTFOLIO</div>
+    <div class="by">POR SERGIO MÉNDEZ</div>
+  </div>
+  <p class="role">Artista 2D y 3D · Ingeniero multimedia</p>
+</header>
+<nav>
+  <a href="#about">ACERCA DE MÍ</a><a href="#vision">VISIÓN / MISIÓN</a><a href="#skills">HABILIDADES</a>
+  <a href="#edu">FORMACIÓN</a><a href="#portfolio">PORTFOLIO</a><a href="#contact">CONTACTO</a>
+</nav>
+<main>
+  <section id="about">
+    <h2>Introducción</h2>
+    <div class="about">
+      <img src="assets/about-slide03-1.jpg" alt="Sergio Méndez">
+      <p>Ingeniero multimedia con énfasis en arte 2D, 3D, creación de personajes, animación y diseño gráfico.</p>
+    </div>
+  </section>
+
+  <section id="vision">
+    <h2>Visión y misión</h2>
+    <div class="two">
+      <div class="box"><h3>VISIÓN</h3><p>Ser un ingeniero multimedia capaz de crear experiencias digitales innovadoras que integren tecnología, arte y narrativa, aportando soluciones visuales e interactivas que conecten con las personas y generen impacto.</p></div>
+      <div class="box"><h3>MISIÓN</h3><p>Diseñar y desarrollar proyectos multimedia que combinen programación, diseño visual y pensamiento creativo, utilizando herramientas y tecnologías actuales para transformar ideas en experiencias digitales funcionales, estéticas y significativas, manteniendo un aprendizaje constante y una búsqueda continua de calidad e innovación.</p></div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Habilidades personales</h2>
+    <div class="gallery skills">
+      <figure><img src="assets/skills-slide05-1.jpg" alt="Arte"><figcaption>ART</figcaption></figure>
+      <figure><img src="assets/skills-slide05-2.jpg" alt="Diseñador gráfico"><figcaption>GRAPHIC DESIGNER</figcaption></figure>
+      <figure><img src="assets/skills-slide05-3.jpg" alt="Fotografía"><figcaption>PHOTOGRAPHY</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="edu">
+    <h2>Transfondo educativo</h2>
+    <div class="edu">
+      <div class="box"><b>2014</b><h3 style="background:none;display:block;color:var(--ink)">TÉCNICO EN DISEÑO GRÁFICO</h3>Institución Educativa Técnico Industrial “Julio Flórez”</div>
+      <div class="box"><b>2021</b><h3 style="background:none;display:block;color:var(--ink)">INGENIERÍA MULTIMEDIA</h3>Universidad Militar Nueva Granada</div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+
+    <h3>Diseño de personajes</h3>
+    <div class="gallery">
+      <figure><img src="assets/personajes-slide08-1.jpg" alt="Diseño de personajes"></figure>
+      <figure><img src="assets/personajes-slide08-2.jpg" alt="Diseño de personajes"></figure>
+      <figure><img src="assets/personajes-slide09-1.jpg" alt="Diseño de personajes"></figure>
+      <figure><img src="assets/personajes-slide09-2.jpg" alt="Diseño de personajes"></figure>
+      <figure><img src="assets/personajes-slide10-1.jpg" alt="Diseño de personajes"></figure>
+      <figure><img src="assets/personajes-slide10-2.jpg" alt="Diseño de personajes"></figure>
+    </div>
+
+    <h3 style="margin-top:36px">Fotografía</h3>
+    <div class="gallery">
+      <figure><img src="assets/fotografia-slide11-1.jpg" alt="Fotografía"></figure>
+      <figure><img src="assets/fotografia-slide11-2.jpg" alt="Fotografía"></figure>
+      <figure><img src="assets/fotografia-slide12-1.jpg" alt="Fotografía"></figure>
+      <figure><img src="assets/fotografia-slide12-2.jpg" alt="Fotografía"></figure>
+    </div>
+
+    <h3 style="margin-top:36px">Modelado 3D</h3>
+    <div class="gallery">
+      <figure><img src="assets/modelado-3d-slide13-1.jpg" alt="Modelado 3D"></figure>
+      <figure><img src="assets/modelado-3d-slide13-2.jpg" alt="Modelado 3D"></figure>
+    </div>
+
+    <h3 style="margin-top:36px">Diseño de marca</h3>
+    <div class="gallery logos">
+      <figure><img src="assets/diseno-de-marca-slide14-1.png" alt="Logo Geek Verse"></figure>
+      <figure><img src="assets/diseno-de-marca-slide14-2.png" alt="Manual de identidad Color Estudios 2024"></figure>
+    </div>
+
+    <h3 style="margin-top:36px">Marketing</h3>
+    <div class="gallery">
+      <figure><video controls preload="none" poster="assets/marketing-01-poster.jpg" src="assets/marketing-01.mp4"></video></figure>
+      <figure><video controls preload="none" poster="assets/marketing-02-poster.jpg" src="assets/marketing-02.mp4"></video></figure>
+      <figure><video controls preload="none" poster="assets/marketing-03-poster.jpg" src="assets/marketing-03.mp4"></video></figure>
+      <figure><video controls preload="none" poster="assets/marketing-04-poster.jpg" src="assets/marketing-04.mp4"></video></figure>
+      <figure><video controls preload="none" poster="assets/marketing-05-poster.jpg" src="assets/marketing-05.mp4"></video></figure>
+      <figure><video controls preload="none" poster="assets/marketing-06-poster.jpg" src="assets/marketing-06.mp4"></video></figure>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <h2>Gracias</h2>
+  <p class="cta">Let’s work together</p>
+  <p>Espero poder ser parte de este increíble grupo y aportar con mis habilidades.</p>
+  <div class="links">
+    <a href="mailto:tu-correo@ejemplo.com">Email</a>
+    <a href="https://linkedin.com/in/tu-usuario">LinkedIn</a>
+  </div>
+</footer>
+
+<div id="lb"><img alt=""></div>
+<script>
+const lb=document.getElementById('lb'),lbi=lb.querySelector('img');
+document.querySelectorAll('.gallery img').forEach(i=>i.addEventListener('click',()=>{lbi.src=i.src;lb.style.display='flex'}));
+lb.addEventListener('click',()=>{lb.style.display='none'});
+</script>
+</body>
+</html>
