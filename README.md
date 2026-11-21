@@ -87,8 +87,8 @@ Haz clic en cada imagen para ver el video.
 
 > **Let's work together.** Espero poder ser parte de este increíble grupo y aportar con mis habilidades.
 
-- ✉️ Email: _tu-correo@ejemplo.com_
-- 💼 LinkedIn: _https://linkedin.com/in/tu-usuario_
+- ✉️ Email: _sealmenbu955872@gmail.com_
+- 💼 LinkedIn: _https://www.linkedin.com/in/sergio-alberto-mendez-burgos-591150385?utm_source=share_via&utm_content=profile&utm_medium=member_android_
 - 🎨 Behance / ArtStation: _https://..._
 
 ---
